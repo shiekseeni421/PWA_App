@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.wrapperContainer{
+    background-color: rgb(255, 213, 0);
+    border: 0px;
+    padding: 20px;
+    height:50% ;
+}
+
+
+@media screen  and (min-width:700px){
+    .wrapperContainer{
+        background-color: red;
+        width: 25%;
+    }
+
+
+}
+
+
+
+.displayButtonContainer{
+    background-color: rgb(43, 4, 65);
+    border-radius: 20px;
+    height: 100%;
+    padding: 10px;
+
+}
+
+.displayContainer{
+    background-color: rgb(46, 50, 55);
+    border-radius: 5px;
+    height: 15%;
+    cursor:pointer;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.ButtonContainer{
+    margin-top: 10px;
+}
+
+.buttonEl{
+    height:65px;
+    width:65px;
+    background-color:rgb(59, 15, 171) ;
+    border-radius: 10px;
+    border-width: 0px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.equalButt{
+    width:130px;
+    background-color: rgb(176, 18, 18);
+}
+
+.buttonEl:hover{
+    background-color: rgb(10, 137, 61);
+    color: rgba(10, 8, 8, 0.873);
+    font-weight: 900;
+}
